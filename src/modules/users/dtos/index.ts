@@ -1,10 +1,8 @@
-interface IFindUserWithGamesDTO {
+export interface IFindUserWithGamesDTO {
   user_id: string;
 }
 
-interface IFindUserByFullNameDTO {
+export interface IFindUserByFullNameDTO {
   first_name: string;
   last_name: string;
 }
-
-export { IFindUserWithGamesDTO, IFindUserByFullNameDTO };
